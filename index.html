@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        main {
+            margin-top: 80px; /* Espacio para el encabezado fijo */
+            padding: 20px;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .button-link {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 15px 30px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: background-color 0.3s;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 1s;
+            margin-left: 50px;
+        }
+        .button-link:hover {
+            background-color: #0056b3;
+            transform: scale(1.2);
+        }
+        .info-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .info-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hola, hice esta página para dejar mis trabajos sobre el Phishing</h1>
+    </header>
+    <main>
+        <div class="info-card">
+            <h2>Video Ejemplo sobre el Phishing</h2>
+            <a class="button-link" href="https://youtu.be/hpkP4was4y8" target="_blank">Ver Video en YouTube</a>
+        </div>
+        <div class="info-card">
+            <h2>Infografía sobre Phishing</h2>
+            <img src="https://drive.google.com/uc?id=1UGOhTR7NOPlzFW7f9XS4PdBNjG-TBvNA" alt="Phishing-Infografía">
+            <a class="button-link" href="https://drive.google.com/file/d/1UGOhTR7NOPlzFW7f9XS4PdBNjG-TBvNA/view?usp=drive_link" target="_blank">Ver Infografía</a>
+        </div>
+        <div class="info-card">
+            <h2>Presentación sobre Phishing</h2>
+            <a class="button-link" href="https://drive.google.com/file/d/1XFYEb3MdjayhfwxXUJWQUbiWBoOIRmrs/view?usp=drive_link" target="_blank">Haz clic aquí para ver el PDF</a>
+        </div>
+    </main>
+</body>
+</html>
